@@ -8,7 +8,7 @@ import matplotlib.dates as mdates
 # ===========================
 # CONFIGURATION
 # ===========================
-# ✅ KHTAR B-RA7TEK HNA: "CANDLES" (Chmou3) awla "LINE" (Khat)
+
 CHART_TYPE = "CANDLES"  
 
 SYMBOL = "R_100"          
@@ -246,4 +246,5 @@ if __name__ == "__main__":
             else:
                 print("Connexion...")
                 time.sleep(2)
+
     except KeyboardInterrupt: print("Stop.")
